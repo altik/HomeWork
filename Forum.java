@@ -20,6 +20,7 @@ public class Forum {
         studList.add(new Students("Ирина Оглобля", 18, "У-15"));
         studList.add(new Students("Кира Баркова", 17, "У-18"));
         studList.add(new Teacher("Инокентий Размутякин", 46, "Философия"));
+        studList.add(new Teacher("Федор Куприянов", 46, "Философия"));
 
         for (int i = 0; i < studList.size(); i++) {
             System.out.println(studList.get(i));
