@@ -4,10 +4,10 @@ package HomeWork;
  * Created by Rudniev Oleksandr on 07.11.2016.
  */
 public class Person {
-    public String name;
-    public int age;
+    protected String name;
+    protected int age;
 
-    Person(String name, int age) {
+    protected Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
