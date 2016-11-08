@@ -1,13 +1,12 @@
 package HomeWork;
 
 /**
- * Created by Rudniev Oleksandr on 07.11.2016.
+ * Created by Rudniev Oleksandr on 08.11.2016.
  */
 public class Teacher extends Person {
 
     private String profession;
-
-    public Teacher(String name, int age, String profession) {
+    protected Teacher(String name, int age, String profession) {
         super(name, age);
         this.profession = profession;
     }
